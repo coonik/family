@@ -41,6 +41,7 @@ header {
 .row {
   align-items: center;
   margin: 0;
+  box-sizing: border-box;
 }
 
 /* ----------------------------------------------- */
@@ -49,6 +50,7 @@ header {
 .header {
   margin: 20px 10px;
   height: 8vh;
+  justify-content: space-between;
 }
 
 .nav {
