@@ -1,6 +1,11 @@
 $(document).ready(() => {
-  $('#nav-menu').click(($event) => {
-    const nav = $('.nav-mobile ul');
-    nav.slideToggle(200);
+  const icon = $('#nav-menu');
+  icon.click(() => {
+    $('.nav-mobile ul').slideToggle(200);
+    if (icon.attr('name') === 'menu-outline') {
+      icon.attr('name', 'close-outline');
+    } else {
+      icon.attr('name', 'menu-outline');
+    }
   });
 });
