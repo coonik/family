@@ -88,7 +88,6 @@ header {
 }
 
 .preamble p {
-  font-size: 18px;
   line-height: 145%;
 }
 
@@ -97,11 +96,11 @@ header {
   align-items: center;
 }
 
-.nav-mobile :first-child {
+.nav-mobile div:first-child {
   margin-right: 5px;
-  display: none;
+  /* display: none; */
 }
 
-.nav-mobile :last-child {
-  margin-right: 15px;
+.nav-mobile div:last-child {
+  margin-right: 25px;
 }
